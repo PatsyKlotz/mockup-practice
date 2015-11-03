@@ -1,0 +1,32 @@
+* { box-sizing: border-box;}
+
+
+
+
+header nav li {
+  display: inline;
+}
+header a {
+  font-family: serif;
+  font-size: 3em;
+  background-color: blueviolet;
+  padding: 2rem
+  border: 7px solid blueviolet;
+  margin: 0;
+}
+    
+figure {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+figcaption {
+  margin: auto;
+}
+
+aside nav li {
+  list-style-type: none;
+}
+
+
+
