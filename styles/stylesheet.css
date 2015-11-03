@@ -1,31 +1,44 @@
 * { box-sizing: border-box;}
 
-
-
-
+header {
+  text block;
+  font-family: sans-serif;
+  font-size: 1rem;
+  padding: 2rem;
+  text-align: center;
+}
 header nav li {
+  text block;
   display: inline;
-}
-header a {
-  font-family: serif;
-  font-size: 3em;
+  padding: 2rem;
   background-color: blueviolet;
-  padding: 2rem
-  border: 7px solid blueviolet;
-  margin: 0;
-}
+  padding: 2rem;
+  }
     
 figure {
-  text-align: center;
-  margin-top: 5rem;
+  float: right;
+  width: 80%;
+  margin: auto;
+  background-color: dimgrey;
+  padding: 4rem;
 }
 
 figcaption {
   margin: auto;
+  text-align:inherit;
 }
 
-aside nav li {
-  list-style-type: none;
+aside {
+  float: left;
+  width: 20%;
+  background-color: blueviolet;
+  padding: 1rem;
+  margin: auto;
+}
+
+footer nav li {
+  display: inline;
+  text-align: center;
 }
 
 
