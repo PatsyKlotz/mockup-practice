@@ -5,28 +5,28 @@ p {
 li {
   list-style-type: none;
 }
-
 header {
   font-family: sans-serif;
   font-size: 1rem;
   padding: 2rem;
   text-align: center;
-  background-color: floralwhite;
+  background-color: #F2F2F2;
+  font color: #B76EFF;
 }
 header nav li {
   display: inline;
   float: left;
+  border-left: 4px solid #C041FF;
   margin: 0 0;
   width: 13%;
-  border: 1px solid black;
-  padding: .5rem;
-  background-color: blueviolet;
-  }
+  padding: 1rem;
+  background-color: #B76EFF;
+}
 figure {
   clear: both;
   float: right;
   width: 75%;
-  background-color: dimgrey;
+  background-color: #E4E4E4;
   padding: 3rem;
   margin: 0 0;
 }
@@ -34,20 +34,19 @@ figcaption {
   text-align: center;
   padding: 1rem;
 }
-
 aside {
   float: left;
   width: 25%;
-  font-size: 1em;
-  background-color: blueviolet;
-  padding: 4rem; 
+  text-decoration-color: #FFFFFF;
+  font-size: 1.5em;
+  background-color: #DDBBFF;
+  padding: 7rem; 
   margin: 0 0;
-  height:inherit;
 }
 
 footer {
   clear: both;
   text-align: center;
   padding: 2rem;
-  background-color: floralwhite;
+  background-color: #F2F2F2;
 }
