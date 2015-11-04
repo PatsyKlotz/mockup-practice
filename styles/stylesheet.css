@@ -1,8 +1,9 @@
 * { box-sizing: border-box;}
-
+p {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; 
+}
 li {
   list-style-type: none;
-  font-family: sans-serif;
 }
 
 header {
@@ -18,7 +19,7 @@ header nav li {
   margin: 0 0;
   width: 13%;
   border: 1px solid black;
-  padding: 1rem;
+  padding: .5rem;
   background-color: blueviolet;
   }
 figure {
@@ -44,9 +45,8 @@ aside {
   height:inherit;
 }
 
-footer nav li{
+footer {
   clear: both;
-  display: inline;
   text-align: center;
   padding: 2rem;
   background-color: floralwhite;
