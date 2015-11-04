@@ -8,7 +8,7 @@ header {
 }
 header nav li {
   display: inline;
-  float: left;
+  float: right;
   list-style-type: none;
   border: 1px solid blueviolet;
   padding: 2rem;
@@ -20,7 +20,7 @@ figure {
   float: right;
   width: 75%;
   background-color: dimgrey;
-  padding: 3rem;
+  padding: 2rem;
   border: 3px solid dimgrey;
 }
 figcaption {
