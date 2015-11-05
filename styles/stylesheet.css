@@ -50,3 +50,13 @@ footer {
   padding: 2rem;
   background-color: #F2F2F2;
 }
+.highlight {
+  background-color: #FFFFDD;
+  text-decoration-color: aqua;
+}
+p.center {
+  text-align: center;
+  color: chocolate;
+  font-family: sans-serif;
+  background-color: #DAFFDA; 
+}
